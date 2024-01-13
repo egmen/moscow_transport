@@ -1,7 +1,7 @@
 # Moscow Transport для Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-![GitHub actions](https://github.com/egmen/moscow_transport/actions/workflows/validate.yaml/badge.svg)
+![GitHub actions](https://github.com/egmen/moscow_transport/actions/workflows/validate.yml/badge.svg)
 
 Компонент для получения времени прибытия следующего автобуса к остановке в Москве из приложения Транспорт Москвы
 
