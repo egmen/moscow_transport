@@ -1,0 +1,6 @@
+{
+  "name": "Moscow Transport",
+  "domains": ["sensor"],
+  "country": "RU",
+  "render_readme": true
+}

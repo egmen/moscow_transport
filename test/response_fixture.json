@@ -1,0 +1,201 @@
+{
+  "id": "a6477b89-72c7-4359-8286-3f148874d653",
+  "name": "Метро \"Кунцевская\"",
+  "type": "public_transport",
+  "wifi": false,
+  "bench": null,
+  "elevator": null,
+  "comment": [],
+  "hub": [],
+  "photo": null,
+  "commentTotalCount": 0,
+  "routePath": [
+    {
+      "id": "541f4cc1-3368-44cc-a5b4-2909b3dae798",
+      "type": "bus",
+      "number": "688",
+      "lastStopName": "Крылатское",
+      "color": "#C2E6FF",
+      "fontColor": "#000000",
+      "cityShuttle": false,
+      "sberShuttle": false,
+      "electrobus": false,
+      "rateUrl": "https://forecast-rate.moscowtransport.app/forecast-rate?stopId=a6477b89-72c7-4359-8286-3f148874d653&routeId=541f4cc1-3368-44cc-a5b4-2909b3dae798&XAuthToken=",
+      "externalForecast": [
+        {
+          "time": 140,
+          "byTelemetry": 1,
+          "tmId": 1602865,
+          "routePathId": "20ea38d5-431e-4372-aed0-b8cfd03b1238"
+        },
+        {
+          "time": 1106,
+          "byTelemetry": 1,
+          "tmId": 1552351,
+          "routePathId": "20ea38d5-431e-4372-aed0-b8cfd03b1238"
+        },
+        {
+          "time": 1867,
+          "byTelemetry": 0,
+          "tmId": 1852753,
+          "routePathId": "20ea38d5-431e-4372-aed0-b8cfd03b1238"
+        }
+      ],
+      "externalForecastTime": [],
+      "feature": null,
+      "isFavorite": false,
+      "messages": []
+    },
+    {
+      "id": "65dfb013-316b-46f7-9ecd-3d68d9832d7d",
+      "type": "bus",
+      "number": "733",
+      "lastStopName": "Крылатское",
+      "color": "#C2E6FF",
+      "fontColor": "#000000",
+      "cityShuttle": false,
+      "sberShuttle": false,
+      "electrobus": true,
+      "rateUrl": "https://forecast-rate.moscowtransport.app/forecast-rate?stopId=a6477b89-72c7-4359-8286-3f148874d653&routeId=65dfb013-316b-46f7-9ecd-3d68d9832d7d&XAuthToken=",
+      "externalForecast": [
+        {
+          "time": 299,
+          "byTelemetry": 1,
+          "tmId": 1475335,
+          "routePathId": "228a1004-67ec-47e9-b368-460606b3a9d6"
+        },
+        {
+          "time": 1215,
+          "byTelemetry": 1,
+          "tmId": 2032378,
+          "routePathId": "228a1004-67ec-47e9-b368-460606b3a9d6"
+        }
+      ],
+      "externalForecastTime": [],
+      "feature": null,
+      "isFavorite": false,
+      "messages": []
+    },
+    {
+      "id": "e301bd72-687d-4add-bd0e-d0ad41dae8b3",
+      "type": "bus",
+      "number": "464",
+      "lastStopName": "Молодогвардейская улица (МКАД)",
+      "color": "#C2E6FF",
+      "fontColor": "#000000",
+      "cityShuttle": false,
+      "sberShuttle": false,
+      "electrobus": false,
+      "rateUrl": "https://forecast-rate.moscowtransport.app/forecast-rate?stopId=a6477b89-72c7-4359-8286-3f148874d653&routeId=e301bd72-687d-4add-bd0e-d0ad41dae8b3&XAuthToken=",
+      "externalForecast": [
+        {
+          "time": 471,
+          "byTelemetry": 1,
+          "tmId": 1780879,
+          "routePathId": "3d0b4bd5-b308-4bc4-8a0d-fb2a6b79f5d8"
+        },
+        {
+          "time": 1969,
+          "byTelemetry": 0,
+          "tmId": 1780882,
+          "routePathId": "3d0b4bd5-b308-4bc4-8a0d-fb2a6b79f5d8"
+        }
+      ],
+      "externalForecastTime": [],
+      "feature": null,
+      "isFavorite": false,
+      "messages": []
+    },
+    {
+      "id": "214a41bb-e27b-4f24-9278-60906b995c2a",
+      "type": "bus",
+      "number": "178",
+      "lastStopName": "Метро \"Фили\"",
+      "color": "#C2E6FF",
+      "fontColor": "#000000",
+      "cityShuttle": false,
+      "sberShuttle": false,
+      "electrobus": false,
+      "rateUrl": "https://forecast-rate.moscowtransport.app/forecast-rate?stopId=a6477b89-72c7-4359-8286-3f148874d653&routeId=214a41bb-e27b-4f24-9278-60906b995c2a&XAuthToken=",
+      "externalForecast": [
+        {
+          "time": 523,
+          "byTelemetry": 1,
+          "tmId": 2050440,
+          "routePathId": "de227cc5-2762-4f74-b8a0-b3f475fb9f6a"
+        },
+        {
+          "time": 2132,
+          "byTelemetry": 0,
+          "tmId": 2086612,
+          "routePathId": "de227cc5-2762-4f74-b8a0-b3f475fb9f6a"
+        },
+        {
+          "time": 3032,
+          "byTelemetry": 0,
+          "tmId": 2092307,
+          "routePathId": "de227cc5-2762-4f74-b8a0-b3f475fb9f6a"
+        }
+      ],
+      "externalForecastTime": [],
+      "feature": null,
+      "isFavorite": false,
+      "messages": []
+    },
+    {
+      "id": "3e671b01-3c87-47f5-9e45-39c5d82f4390",
+      "type": "bus",
+      "number": "733к",
+      "lastStopName": "Крылатское",
+      "color": "#C2E6FF",
+      "fontColor": "#000000",
+      "cityShuttle": false,
+      "sberShuttle": false,
+      "electrobus": false,
+      "rateUrl": null,
+      "externalForecast": [
+        {
+          "time": 27534,
+          "byTelemetry": 0,
+          "tmId": 0,
+          "routePathId": "4ff328ba-c1d3-4340-ad47-85deaf8920f0"
+        }
+      ],
+      "externalForecastTime": [],
+      "feature": null,
+      "isFavorite": false,
+      "messages": []
+    },
+    {
+      "id": "8f048774-f842-4572-9ce8-ae587f1ad34b",
+      "type": "bus",
+      "number": "452",
+      "lastStopName": "Кв. им. Маяковского",
+      "color": "#FFFFFF",
+      "fontColor": "#000000",
+      "cityShuttle": false,
+      "sberShuttle": false,
+      "electrobus": false,
+      "rateUrl": null,
+      "externalForecast": [],
+      "externalForecastTime": [],
+      "feature": null,
+      "isFavorite": false,
+      "messages": []
+    }
+  ],
+  "color": "#ffaa34",
+  "routeNumber": "452",
+  "isFavorite": false,
+  "shareUrl": "http://moscowapp.mos.ru/share.php?url=stop%2Fa6477b89-72c7-4359-8286-3f148874d653",
+  "lat": 55.731995,
+  "lon": 37.44689,
+  "cityShuttle": false,
+  "electrobus": true,
+  "transportTypes": ["bus"],
+  "routeName": null,
+  "shuttleType": null,
+  "regional": false,
+  "testMode": true,
+  "debug": []
+}
