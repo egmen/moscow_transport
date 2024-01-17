@@ -6,7 +6,7 @@
 Компонент для получения времени прибытия следующего автобуса к остановке в Москве из приложения Транспорт Москвы
 
 ## Для получения UUID остановки
-<img src="assets/transport_app_screenshot.jpg" width="150px" align="right" />
+<img src="https://raw.githubusercontent.com/egmen/moscow_transport/main/assets/transport_app_screenshot.jpg" width="150px" align="right" />
 
 - Нужно в приложении Московский транспорт https://play.google.com/store/apps/details?id=ru.mosgorpass (https://apps.apple.com/us/app/moscow-transport/id1227002793) выбрать на карте интересующую остановку
 - Нажать на кнопку поделиться
