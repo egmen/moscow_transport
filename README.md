@@ -8,7 +8,7 @@
 ## Для получения UUID остановки
 <img src="assets/transport_app_screenshot.jpg" width="150px" align="right" />
 
-- Нужно в приложении Московский транспорт https://play.google.com/store/apps/details?id=ru.mosgorpass выбрать на карте интересующую остановку
+- Нужно в приложении Московский транспорт https://play.google.com/store/apps/details?id=ru.mosgorpass (https://apps.apple.com/us/app/moscow-transport/id1227002793) выбрать на карте интересующую остановку
 - Нажать на кнопку поделиться
 - Получившися адрес вида https://moscowapp.mos.ru/l/S0G3Qb необходимо открыть в браузере
 - В адресной строке браузера он изменится на адрес вида https://moscowapp.mos.ru/stop?id=99a2734d-84ed-4361-8cc2-5cb3e4e778c5
@@ -46,14 +46,8 @@ sensor:
 - ```docker-compose up```
 - http://localhost:8123/
 
-# Для тестирования
+## Для тестирования
 ```bash
 pip install pytest-watch
 ptw
 ```
-
-## Примеры ссылок из приложения
-https://moscowapp.mos.ru/stop?id=a6477b89-72c7-4359-8286-3f148874d653
-https://moscowtransport.app/bus-stop?id=70278228&coordinate=37,55
-https://moscowtransport.app/api/stop_v2/a6477b89-72c7-4359-8286-3f148874d653
-https://forecast-rate.moscowtransport.app/api/stop_v2/383de055-48af-418a-aa41-aa2746fb9018
