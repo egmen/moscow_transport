@@ -11,7 +11,7 @@ from homeassistant.components.sensor import (
     SensorDeviceClass,
     SensorEntity,
 )
-from homeassistant.const import CONF_NAME
+from homeassistant.const import CONF_NAME, MATCH_ALL
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.aiohttp_client import async_create_clientsession
 import homeassistant.helpers.config_validation as cv
@@ -74,6 +74,9 @@ class DiscoverMoscowTransport(SensorEntity):
     _attr_device_class = SensorDeviceClass.TIMESTAMP
     _attr_friendly_name = "hello world"
 
+    # Не сохранять историю аттрибутов
+    _unrecorded_attributes = frozenset({MATCH_ALL})
+
     def __init__(self, session, stop_id, routes, name) -> None:
         """Initialize sensor."""
         self.session = session
@@ -107,8 +110,10 @@ class DiscoverMoscowTransport(SensorEntity):
         if closest_route:
             telemetry_suffix = get_telemetry_suffix(closest_route[2])
             self._name = f"{self._name} ({closest_route[0]}{telemetry_suffix})"
+            # do not save _state change in history
             self._state = dt_util.utcnow(
             ) + timedelta(seconds=closest_route[1])
+
 
         for route in stop_info['routePath']:
 
