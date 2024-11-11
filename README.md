@@ -10,7 +10,7 @@
 
 - Нужно в приложении Московский транспорт https://play.google.com/store/apps/details?id=ru.mosgorpass (https://apps.apple.com/us/app/moscow-transport/id1227002793) выбрать на карте интересующую остановку
 - Нажать на кнопку поделиться
-- Получившися адрес вида https://moscowapp.mos.ru/l/S0G3Qb необходимо открыть в браузере
+- Получившийся адрес вида https://moscowapp.mos.ru/l/S0G3Qb необходимо открыть в браузере
 - В адресной строке браузера он изменится на адрес вида https://moscowapp.mos.ru/stop?id=99a2734d-84ed-4361-8cc2-5cb3e4e778c5
 - id остановки в адресе 99a2734d-84ed-4361-8cc2-5cb3e4e778c5 нужно использовать в конфигурации
 
@@ -40,6 +40,15 @@ sensor:
   - platform: moscow_transport
     name: К метро Крылатское
     stop_id: 2b348a58-a3e4-4937-b973-18cfe0f87e5e
+```
+
+## Чтобы не сохранять историю изменения сенсора в базе данных
+```yaml
+# Пример configuration.yaml
+recorder:
+  exclude:
+    entity_globs:
+      - sensor.*_moscow_transport
 ```
 
 ## Для локальной разработки
